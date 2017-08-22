@@ -1,0 +1,34 @@
+{
+    "pages": [
+        "pages/diaryList/diaryList",
+        "pages/detail/detail",
+        "pages/add/newDiary",
+        "pages/myPage/myPage"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#858585",
+        "selectedColor": "#39b5de",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/diaryList/diaryList",
+                "iconPath": "images/icons/list-icon.png",
+                "selectedIconPath": "images/icons/list-icon-active.png",
+                "text": "列表"
+            },
+            {
+                "pagePath": "pages/myPage/myPage",
+                "iconPath": "images/icons/myPage-icon.png",
+                "selectedIconPath": "images/icons/myPage-icon-active.png",
+                "text": "我的"
+            }
+        ]
+    }
+}
